@@ -1,6 +1,6 @@
 # Algorithm-Dijkstra
 
-### Các Chuỗi
+## Các Chuỗi
 ```Csharp
 int[] dist = new int[n];
 ```
@@ -13,14 +13,14 @@ int[] pre = new int[n];
 int[] label = new bool[n];
 ```
 đây là chuỗi cờ đánh dấu các đỉnh đã hoàn thành
-### Thiết Lập
+## Thiết Lập
 > mặc định tất cả các đỉnh `dist[i]` có giá trị lớn nhất
 > ```charp
 > dist[i] = int.MaxValue;
 > ```
 > mặc định các đỉnh ban đầu có `pre[i]` là `-1`
 > đỉnh đầu tiên sẽ có `dist[xp] = 0`
-### Các Hàm Và Chức Năng
+## Các Hàm Và Chức Năng
 > `Input()`
 
 hàm dùng để đọc file `graph.inp` và khai báo các biến các cấu trúc dữ liệu.
@@ -82,4 +82,4 @@ if (dist[item.Item1 - 1] > dist[start - 1] + item.Item2)
 
 hàm hiển thị đường đi của dijkstra bằng `Stack`
 
-===========================================================
+====================================End====================================
