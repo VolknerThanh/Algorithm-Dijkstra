@@ -1,0 +1,6 @@
+D:\Programming\Console C#\DijkstraAlgortihm\DijkstraAlgortihm\bin\Debug\DijkstraAlgortihm.exe.config
+D:\Programming\Console C#\DijkstraAlgortihm\DijkstraAlgortihm\bin\Debug\DijkstraAlgortihm.exe
+D:\Programming\Console C#\DijkstraAlgortihm\DijkstraAlgortihm\bin\Debug\DijkstraAlgortihm.pdb
+D:\Programming\Console C#\DijkstraAlgortihm\DijkstraAlgortihm\obj\Debug\DijkstraAlgortihm.csprojResolveAssemblyReference.cache
+D:\Programming\Console C#\DijkstraAlgortihm\DijkstraAlgortihm\obj\Debug\DijkstraAlgortihm.exe
+D:\Programming\Console C#\DijkstraAlgortihm\DijkstraAlgortihm\obj\Debug\DijkstraAlgortihm.pdb
