@@ -21,25 +21,25 @@ int[] label = new bool[n];
 > mặc định các đỉnh ban đầu có `pre[i]` là `-1`
 > đỉnh đầu tiên sẽ có `dist[xp] = 0`
 ### Các Hàm Và Chức Năng
-> Input()
+> `Input()`
 
 hàm dùng để đọc file `graph.inp` và khai báo các biến các cấu trúc dữ liệu.
-> Output()
+> `Output()`
 
 hàm xuất dữ liệu đã đọc từ file `graph.inp`.
-> DFS()
+> `DFS()`
 
 hàm duyệt theo chiều sâu để kiểm tra tính liên thông của đồ thị.
-> PrintDFS()
+> `PrintDFS()`
 
 hàm in danh sách các phần tử đã được duyệt theo chiều sâu
-> SetInfiniteAllDistElement()
+> `SetInfiniteAllDistElement()`
 
 hàm thiết lập cho các `dist[i]` giá trị lớn nhất là vô cực và `pre[i]` với giá trị là -1
-> Solve()
+> `Solve()`
 
 hàm kiểm tra đồ thị bằng `DFS()`. Nếu điểm kết thúc không liên thông với điểm bắt đầu thì không thể chạy được, ngược lại sẽ chạy hàm `dijkstra()` và in ra `ShortestRoad()`
-> Min()
+> `Min()`
 
 đây là hàm tìm giá trị nhỏ nhất trong `int[] dist`. Hàm này trả về *vị trí* của phần tử
 ```csharp
@@ -59,7 +59,7 @@ nếu phần tử nhỏ nhất đã được xác định thì chuyễn sang ph�
 T T F F F F F
 ```
 phần tử `0` nhỏ nhất nhưng nó là `T` nên `continue` sang `1` và `1` cũng `T` nên chuyển cho phần tử nhỏ tiếp là `2` và có `F` nên nhận `min = 2`
-> Dijkstra()
+> `Dijkstra()`
 
 1. gọi hàm `SetInfiniteAllDistElement()` để thiết lập.
 2. phần tử xuất phát = 0
@@ -78,7 +78,7 @@ if (dist[item.Item1 - 1] > dist[start - 1] + item.Item2)
 8. Gán thẻ xác định cho phần tử nhỏ nhất để lần sau không đụng tới (loại bỏ khỏi tập đồ thị).
 9. Lặp lại bước 4 cho tới khi phần tử kết thúc không còn nằm trong tập đồ thị.
 
-> ShortestRoad()
+> `ShortestRoad()`
 
 hàm hiển thị đường đi của dijkstra bằng `Stack`
 
